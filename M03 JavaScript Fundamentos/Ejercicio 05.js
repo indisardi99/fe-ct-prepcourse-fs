@@ -2,7 +2,13 @@
 /*5️⃣ EJERCICIO 05 5️⃣*/
 
 function esPositivo(num) {
-   // La función recibe un entero. Devuelve como resultado un string que indica si el número
+ if (num > 0){ 
+   return "Es positivo";
+ }  else  if (num < 0){
+   return "Es negativo";
+ } else {
+   return false;
+  } // La función recibe un entero. Devuelve como resultado un string que indica si el número
    // es positivo o negativo.
    // Si el número es positivo ---> "Es positivo".
    // Si el número es negativo ---> "Es negativo".
@@ -11,7 +17,7 @@ function esPositivo(num) {
 }
 
 function agregarSimboloExclamacion(str) {
-   // Agrega un símbolo de exclamación al final del string "str" y retórnalo
+  return str + "!";  // Agrega un símbolo de exclamación al final del string "str" y retórnalo
    // Ejemplo: "hello world" ---> "hello world!"
    // Tu código:
 }
